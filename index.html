@@ -1,83 +1,143 @@
-<!DOCTYPE html> <!-- to begin the code ... @mrelirooney -->
+<!DOCTYPE html> <!-- to begin the HTML code ... @mrelirooney -->
     <html lang="en">
         <head>
             <title>TIMES</title> <!-- Tab ... @mrelirooney -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> <!-- BootStrap code...this link promotes the style sheet for images and pictures for this page... @mrelirooney -->
-            <link rel="stylesheet" type="text/css" href="main.css"> <!-- style sheet link for this page only -->
+            <link rel="stylesheet" type="text/css" href="main.css"> <!-- style sheet link for this page only ... @mrelirooney -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- jQuery code...This link allows jQuery to be possible for this page ... @mrelirooney -->
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> <!-- BootStrap code...This link is for the functionality of Bootstrap to be present on this page ... @mrelirooney -->
             <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> <!-- Font Awsome link... For icons and familiar mainstream logos ... @mrelirooney -->
         </head>
         <body style = "background-color: #FFFFFF;"> <!-- Background Color ... @mrelirooney -->
 
-            <div class="container-fluid"> <!-- promote bootstrap -->
+            <div class="container-fluid"> <!-- promote bootstrap ... @mrelirooney-->
                 
                 <div class="row"> <!-- div that hold the entire home page ... @mrelirooney -->
-                    <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" style = " background-color: #F5F5DC;"> <!-- Keeps the entire page centered without side scrolling bars, plus gives the background color... @mrelirooney-->
-                        <!-- Header and Nav -->
+                    <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" style = "background-image: linear-gradient(to bottom, rgba(0,100,200,.9), rgba(0,0,50,.9));"> <!-- Keeps the entire page centered without side scrolling bars, plus gives the background color... @mrelirooney-->
+                        <!-- Header ... @mrelirooney-->
                         <div class="row">
-                            <nav class="navbar navbar-inverse"> 
-                                <div class="container-fluid">
 
-                                    <!-- Logo -->
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a href="index.html" class="navbar-brand">TIMES</a> <!-- LOGO -->
-                                    </div> 
+                            <!-- Hero Image ... @mrelirooney-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "homeHeroImg" style = "background-color: none; padding: 20px;">
+                                <!-- Nav Bar -->
+                                <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0,0,0,.86)">  
+                                    <div class="container-fluid">
 
-                                    <!-- Menu Items -->
-                                    <div class="collapse navbar-collapse" id="mainNavBar">
-                                        <ul class="nav navbar-nav">
-                                            <!-- options in the Nav Bar -->
-                                            <li><a href="#">Home</a></li> 
-                                            <li><a href="#">Shop</a></li>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                            <!--<li><a href="#">???</a></li>-->
-                                        </ul>
+                                        <!-- Logo Section ... @mrelirooney-->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <a href="index.html" class="navbar-brand">TIMES</a> <!-- LOGO ... @mrelirooney-->
+                                        </div> <!-- End of the Logo Section ... @mrelirooney-->
+
+                                        <!-- Menu Items ... @mrelirooney-->
+                                        <div class="collapse navbar-collapse" id="mainNavBar">
+                                            <ul class="nav navbar-nav">
+                                                <!-- options in the Nav Bar ... @mrelirooney-->
+                                                <li><a href="#">Shops</a></li> 
+                                                <li><a href="#">Eats</a></li>
+                                                <li><a href="#">Transit</a></li>
+                                                <li><a href="#">Landmarks</a></li>
+                                                <li><a href="#">NYE</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                                <!--<li><a href="#">???</a></li>-->
+                                            </ul>
+
+                                            <!-- Search Bar in Nav Bar ... @mrelirooney-->
+                                            <form class="navbar-form navbar-right" action="/action_page.php"> <!-- Imma use Ruby later ... @mrelirooney-->
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Search Time Square">
+                                                </div>
+                                                <button type="submit" class="btn btn-default">Search</button>
+                                            </form><!-- End of the Search Bar ... @mrelirooney-->
+                                        </div> <!-- End of Menu Items ... @mrelirooney-->
                                     </div>
-                                </div>
-                            </nav>
+                                </nav> <!-- End of the Nav Bar ... @mrelirooney-->
 
-                            <!-- Hero Image -->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "homeHeroImg" style = "background-color: none; padding: 125px;">
                                 <div class="row">
-                                    <div class="col-xs-5 col-xs-offset-6 col-sm-5 col-sm-offset-6 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6" style="background-color: none; padding: 60px;"><h1 class = "head">Times</h1>  
+                                    <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-7 col-md-5 col-md-offset-7 col-lg-5 col-lg-offset-7" style="background-color: none; padding-top: 300px; padding-bottom: 0px;"><h1 class = "head">Times Square</h1>  
                                     </div>
                                 </div>
-                            </div> <!-- End of the Hero -->
-                        </div> <!-- End of Header -->
+                            </div> <!-- End of the Hero ... @mrelirooney-->
+                        </div> <!-- End of Header ... @mrelirooney-->
 
-                        <div class="row" style="background-color: none; padding: 10px;"></div> <!-- Empty Space -->
+                        <div class="row" style="background-color: none; padding: 10px;"><h2>The Crossroad of the World</h2><h3>at your fingertips</h3></div> <!-- Empty Space -->
                         
-                            <!--Content and Panels-->
-                        <div class="row" style="background-color: none; padding: 10px; margin-left: 5%;">
-                            <div class="col-xs-3 col-xs-offset-0 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="background-color: red; padding: 100px;"><h1 class = "head">Shops</h1>  
-                            </div>
-                            <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="background-color: red; padding: 100px;"><h1 class = "head">Resturants</h1>  
-                            </div>
-                            <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="background-color: red; padding: 100px;"><h1 class = "head">Public Transit</h1>  
-                            </div>        
+                            <!-- Content and Panels ... @mrelirooney-->
+                        <div class="row">
+                            <a href="#"><div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-4 col-lg-offset-0" id = "homeShopImg" style="background-color: rgba(0,0,30,.9); padding: 10px; padding-top: 200px;"><h1 class = "content">Shops</h1>
+                            </div></a>
+                            <a href="#"><div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-1 col-lg-4 col-lg-offset-0" id = "homeRestImg" style="background-color: rgba(0,0,30,.9); padding: 10px; padding-top: 200px;"><h1 class = "content">Resturants</h1>  
+                            </div></a>
+                            <a href="#"><div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-1 col-lg-4 col-lg-offset-0" id = "homeTranImg" style="background-color: rgba(0,0,30,.9); padding: 10px; padding-top: 200px;"><h1 class = "content">Public Transit</h1>  
+                            </div></a>
                         </div>
 
-                        <div class="row" style="background-color: none; padding: 10px;"></div> <!-- Empty Space -->
+                        <!--<div class="row" style="background-color: none; padding: 10px;"></div>--> <!-- Empty Space ... @mrelirooney-->
 
-                        <div class="row" style="background-color: none; padding: 10px; margin-left: 5%;">
-                            <div class="col-xs-3 col-xs-offset-0 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="background-color: red; padding: 100px;"><h1 class = "head">Landmarks</h1>  
+                        <div class="row">
+                            <a href="#"><div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-4 col-lg-offset-0" id = "homeLandImg" style="background-color: rgba(0,0,30,.9); padding: 10px; padding-top: 200px;"><h1 class = "content">Landmarks</h1>  
+                            </div></a>
+                            <a href="#"><div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-1 col-lg-4 col-lg-offset-0" id = "homeNYEImg" style="background-color: rgba(0,0,30,.9); padding: 10px; padding-top: 200px;"><h1 class = "content">New Years Eve</h1>  
+                            </div></a>
+                            <a href="#"><div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-1 col-lg-4 col-lg-offset-0" id = "homeAbtImg" style="background-color: rgba(0,0,30,.9); padding: 10px; padding-top: 200px;"><h1 class = "content">About</h1>  
+                            </div></a>
+                        </div> <!-- End of Content and Panels ... @mrelirooney -->
+
+                        <div class="row" style="background-color: none; padding: 30px;"></div> <!-- Empty Space ... @mrelirooney-->
+
+                        <!-- Footer -->
+                        <div class="row" id = "footer" style="background-color: rgba(0,0,0,.7); padding: 20px;">
+                            <div class="col-xs-10 col-xs-offset-0 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1" style="background-color: none; padding: 10px;"> <!-- Links in the Footer below ... @mrelirooney -->
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="#"><p class = "footerContentA">Shops</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="#"><p class = "footerContentA">Eats</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="#"><p class = "footerContentA">Transit</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="#"><p class = "footerContentA">Landmarks</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="#"><p class = "footerContentA">NYE</p></a>
+                                </div>
+                                <div class="col-xs-4 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <a href="#"><p class = "footerContentA">About</p></a>
+                                </div>
                             </div>
-                            <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="background-color: red; padding: 100px;"><h1 class = "head">New Years Eve</h1>  
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
+                                <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-2 col-lg-offset-0">
+                                    <p class = "footerContentB">mrexr2014@gmail.com</p>
+                                </div> 
+                                <div class="col-xs-6 col-xs-offset-0 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-2 col-lg-offset-2">
+                                    <p class = "footerContentB">1(718)9093871</p>
+                                </div> 
+                                <div class="col-xs-6 col-xs-offset-0 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                                    <p class = "footerContentB">@mrelirooney</p>
+                                </div> 
+                                <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                                    <a href="https://www.linkedin.com/in/elijah-rooney-b9701b14a/"><i id = "linkedIn" class="fab fa-linkedin fa-2x"></i></a> <!-- Link to my Linkedin ... @mrelirooney -->
+                                </div>
+                                <div class="col-xs-2 col-xs-offset-0 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                                    <a href="#"><i id = "gitHub" class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
-                            <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="background-color: red; padding: 100px;"><h1 class = "head">About</h1>  
-                            </div>        
-                        </div> <!-- End of Content and Panels...@mrelirooney -->
-                    </div> <!-- end of the background color...@mrelirooney -->
-                </div> <!-- end of the homepage holder...@mrelirooney -->
-            </div>  <!-- End of the container-fluid...@mrelirooney -->
+                            <div class="row" style="background-color: none; padding: 5px;">
+                                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1"><p class = "footerContentA">TIMES &copy 2019</p><p class = "footerContentA">Website Coded by Elijah Xavier Rooney</p>  
+                                </div>
+                            </div>
+                        </div> <!-- End of the Footer ... @mrelirooney-->
+                    </div> <!-- end of the background color ... @mrelirooney -->
+                </div> <!-- end of the homepage holder ... @mrelirooney -->
+            </div>  <!-- End of the container-fluid ... @mrelirooney -->
         </body> <!-- End of the Body ... @mrelirooney -->
-</html> <!-- the end of the code @mrelirooney -->
+</html> <!-- the end of the HTML code ... @mrelirooney -->
